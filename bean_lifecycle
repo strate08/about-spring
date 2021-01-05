@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-05T08:42:43.422Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="-anYTzUv5G9IiGDwdXjD" version="14.1.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-05T09:02:14.741Z" agent="5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="MOMKSlsPCtmuwSx0OHwq" version="14.1.3" type="github">
   <diagram id="GlfwdbX_cVSww9t1fHnm" name="Page-1">
     <mxGraphModel dx="1102" dy="582" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#EDE5E1" math="0" shadow="0">
       <root>
@@ -23,19 +23,19 @@
           <mxGeometry x="268.87" y="308" width="237.13" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-9" value="&lt;b&gt;BeanPostProcessor&lt;/b&gt;&lt;br&gt;&lt;b&gt;before Initialization()&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006EAF;fontColor=#ffffff;fillColor=#83A6E2;" vertex="1" parent="1">
-          <mxGeometry x="267.5" y="451" width="193.13" height="55" as="geometry" />
+          <mxGeometry x="267.5" y="517" width="193.13" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-11" value="bean init()初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="119.5" y="594" width="120" height="37" as="geometry" />
+          <mxGeometry x="119.5" y="660" width="120" height="37" as="geometry" />
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-13" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Et5x-8dVu4bGaMIpBAYJ-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="383.63" y="547" as="sourcePoint" />
-            <mxPoint x="178.63" y="726" as="targetPoint" />
+            <mxPoint x="383.63" y="613" as="sourcePoint" />
+            <mxPoint x="178.63" y="792" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-14" value="&lt;b&gt;BeanPostProcessor&lt;/b&gt;&lt;br&gt;&lt;b&gt;after Initialization()&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#006EAF;fontColor=#ffffff;fillColor=#83A6E2;" vertex="1" parent="1">
-          <mxGeometry x="269.25" y="631" width="191.38" height="55" as="geometry" />
+          <mxGeometry x="269.25" y="697" width="191.38" height="55" as="geometry" />
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-15" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -51,23 +51,23 @@
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-17" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="262.63" y="478" as="sourcePoint" />
-            <mxPoint x="185.63" y="478" as="targetPoint" />
+            <mxPoint x="262.63" y="544" as="sourcePoint" />
+            <mxPoint x="185.63" y="544" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-18" value="&lt;b&gt;InitializingBean&lt;/b&gt;&lt;br&gt;&lt;b&gt;afterPropertiesSet()&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="267.5" y="539" width="170.26" height="44" as="geometry" />
+          <mxGeometry x="267.5" y="605" width="170.26" height="44" as="geometry" />
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-19" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="262.63" y="561" as="sourcePoint" />
-            <mxPoint x="185.63" y="561" as="targetPoint" />
+            <mxPoint x="262.63" y="627" as="sourcePoint" />
+            <mxPoint x="185.63" y="627" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-20" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="262.63" y="660" as="sourcePoint" />
-            <mxPoint x="185.63" y="660" as="targetPoint" />
+            <mxPoint x="262.63" y="726" as="sourcePoint" />
+            <mxPoint x="185.63" y="726" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-21" value="属性填充&amp;nbsp;Populate&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
@@ -86,7 +86,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Et5x-8dVu4bGaMIpBAYJ-24" value="销毁" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="1">
-          <mxGeometry x="132" y="726" width="99" height="55" as="geometry" />
+          <mxGeometry x="132" y="792" width="99" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Et5x-8dVu4bGaMIpBAYJ-26" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="264" y="458.5" as="sourcePoint" />
+            <mxPoint x="187" y="458.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Et5x-8dVu4bGaMIpBAYJ-27" value="初始化之前调用XxAware&lt;br&gt;BeanNameAware,BeanFactoryAware..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="268.87" y="429" width="247.75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Et5x-8dVu4bGaMIpBAYJ-29" value="&lt;div&gt;invokeAwareMethods(beanName, bean);&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;Object wrappedBean = bean;&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;wrappedBean = applyBeanPostProcessorsBeforeInitialization(wrappedBean, beanName);&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;invokeInitMethods(beanName, wrappedBean, mbd);&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;wrappedBean = applyBeanPostProcessorsAfterInitialization(wrappedBean, beanName);&lt;/div&gt;" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="516.62" y="512" width="495" height="144.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
